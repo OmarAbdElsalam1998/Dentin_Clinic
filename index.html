@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+    <meta charset="utf-8" />
+    <title>DENTIN CLINIC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="dentin clinic" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <!--Font awsome style  -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css"> 
+    <link rel="stylesheet" href="assets/css/main_style.css">
+
+<body>
+  
+    <!-- Start Header -->
+    <header class="header">
+      <div class="overlay pb-5">
+        <div class="container">
+            <div class="logo py-5 mb-lg-5">
+                <img  src="./assets/img/Logo.png" alt="logo">
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay=".4s">
+                    <div class="main-content text-center ">
+                        <h3 class="first-title mb-3 text-center">أحصل على أفضل العروض من عيادات دنتين الطبية</h3>
+                        <p class="second-title mb-3">أفضل الخدمات الطبية في الاختصاصات</p>
+                        <div class="departments text-center">
+                            <ul class="list-unstyled ">
+                                <li>الأسنان</li>
+                                <li>الجلدية</li>
+                                <li>الليزر</li>
+                            </ul>
+                        </div>
+                        <p class="third-title my-md-5">سجل الآن واحصل على عروض حصرية … الكشف والخطة العلاجية مجانا .. خدمات بأعلى جودة وافضل سعر في الشرقية .. وتوجد خدمة التقسيط
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="reservation-box p-4 rounded " >
+                        <h3 class="title text-center mb-4">سجل بياناتك</h3>
+                        <form id="reservationForm">
+                            <div class="form-group mb-3 ">
+                                <input  type="text" class="form-control " placeholder="الإسم" id="customerName">
+                                <small class="text-danger error-message text-end" id="nameErrorMessage"></small>
+                            </div>
+                            <div class="form-group  mb-3">
+                                <input type="text" class="form-control" placeholder="رقم الموبايل" id="customerPhone">
+                                <small class="text-danger error-message text-right" id="phoneerrormessage"></small>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="البريد الإلكتروني" id="customerEmail">
+                                <small class="text-danger error-message text-right" id="phoneerrormessage"></small>
+
+                            </div>
+                            <div class="form-group mb-3">
+                                <select type="text" class="form-control"id="selectServices">
+                                    
+                                    <option disabled selected>إختر الخدمة (يمكنك اختيار اكثر من خدمة)</option>
+                                    <optgroup label="قسم الأسنان">
+                                        <option> ابتسامة هوليود</option>
+                                        <option>معالجات ومشاكل الاسنان خصم 50%</option>
+                                        <option>علاج العصب بأحدث التقنيات</option>
+                                        <option>تركيبات الزيركون</option>
+                                        <option>تبيض الأسنان بجهاز Zoom4</option>
+                                        <option> تنظيف وتلميع الاسنان بتقنية البرفوجيت</option>
+                                        <option>التقويم الشفاف او التقويم العادي</option>
+                                        <option>زراعة الأسنان</option>
+                                      </optgroup>
+                                      <optgroup label="قسم الجلدية والتجميل">
+                                        <option>فيلر ، بوتكس ، بروفايلو</option>
+                                        <option>علاج الكاربوكسي</option>
+                                        <option>فراكشنال ليزر</option>
+                                        <option>التقشير البارد</option>
+                                        <option>التقشير الكميائي</option>
+                                        <option>هيدروفيشيال</option>
+                                        <option>الليزر الكربوني</option>
+                                        <option>ديرمابين وميزوثيرابي</option>
+                                        <option>بلازما وميزو شعر</option>
+                                        <option>إزالة الوشم</option>
+                                        <option>تشقير شعر الوجه والحواجب بجهاز سبيكترا</option>
+                                        <option>إزالة الشعر بالليزر ( دويوتو . جنتل ليز )</option>
+
+
+
+                                      </optgroup>
+    
+                                    
+                                </select>
+                                <small class="text-danger error-message text-end"></small>
+
+                            </div>
+                            <div class="services-box mb-3 ">
+                                <label class="mb-2">الخدمات المختارة</label>
+                                <div class="services p-3 rounded border ">
+                                
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group mb-3 text-center">
+                                <button class="special-btn ">سجل الآن</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!--End Header  -->
+   
+
+       <!--Start Departments Sections-->
+       <div class="best-offers p-5 ">
+        <div class="container">
+            <h3 class=" fs-1 special-heading mb-3 text-center wow fadeInRight" data-wow-delay=".2s">أقوي عروض 2023</h3>    
+            <div class="owl-carousel owl-theme d-flex justify-content-center">
+                <div class="item p-3">
+                    <div class="box wow fadeInRight" data-wow-delay=".2s" data-description="Medicine">
+                      <img  class="h-100" src="assets/img/best offers/DENTIN-CLINIC-OFFERS-1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="item p-3">
+                    <div class="box wow fadeInRight" data-wow-delay=".3s" data-description="Medicine">
+                      <img  class="img-fluid h-100" src="assets/img/best offers/DENTIN-CLINIC-OFFERS-2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="item p-3">
+                    <div class="box wow fadeInRight" data-wow-delay=".4s" data-description="Medicine">
+                      <img  class="img-fluid h-100" src="assets/img/best offers/DENTIN-CLINIC-OFFERS-3.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="item p-3">
+                    <div class="box" data-description="Medicine">
+                      <img  class="img-fluid h-100" src="assets/img/best offers/DENTIN-CLINIC-OFFERS-4.jpg" alt="">
+                    </div>
+                  </div>
+                
+              </div>      
+        </div>
+        
+        
+       </div>
+       <!--End Departments Sections-->
+       
+    <!-- start installment section -->
+    <section class="installment text-center">
+      <div class="overlay  py-3 pt-md-5">
+        <div class="container">
+          <h3 class="special-heading wow fadeInDown" data-wow-delay=".2s">متوفر خدمة التقسيط من</h3>
+          <div class="logo-style ">
+          <div class="logo">
+              <img class="img-fluid tamara-logo animate__animated animate__bounce animate__slower 3s animate__infinite	infinite " src="assets/img/tamara.png">
+          </div>
+          </div>
+
+        </div>
+      </div>
+  </section>               
+
+
+  <!-- End installment section -->
+
+  <!-- Start Footer -->
+  <footer class="footer py-3 py-md-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7" >
+                  <div class="row">
+                      <div class="col-md-6 wow fadeInDown mb-md-3" data-wow-delay=".3s">
+                          <div class="brand-contactInfo">
+                              <div class="brand mb-4">
+                                  <img  src="./assets/img/Logo.png" alt="logo">
+                              </div>
+                              <div class="social pt-4 mb-3">
+                                  <ul class="list-unstyled p-0 m-0">
+                                      <li><a href="https://www.tiktok.com/@dentinclinic" target="_blank"><i class="fa-brands fa-tiktok"></i></a> </li>
+                                      <li><a href="https://twitter.com/dentin_clinic" target="_blank"><i class="fa-brands fa-twitter"></i></a> </li>
+      
+                                      <li><a href="https://www.instagram.com/dentin_clinic/" target="_blank"><i class="fa-brands fa-instagram"></i></a> </li>
+      
+                                      <li><a href="https://www.snapchat.com/add/dentin_clinic" target="_blank"><i class="fa-brands fa-snapchat"></i></a> </li>
+      
+                                      <li><a href="https://www.facebook.com/DentinClinic.Sa" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> </li>
+      
+      
+                                  </ul>
+                              </div>                      
+                          </div>
+                      </div>
+                      <div class="col-md-6 wow fadeInUp mb-2" data-wow-delay=".3s">
+                          <div class="contacts text-center">
+                            <h3 class="title mb-4">تواصل معنا</h3>
+                            <div class="address mb-2">
+                              <span class="icon ps-2"><i class="fa-regular fa-location-dot fa-lg"></i></span>
+                              <span class="fw-bold">الخبر - حي الخزامي</span>
+                           </div>
+                          <div class="phones mb-2">                       
+                               <div class="mt-2">
+                                  <span class="phone-number d-block"> +966 55 328 7555 <span class="icon ps-2"><i class="fa-regular fa-phone"></i></span></span>
+                                  <span class=" phone-number d-block">+996 53 420 6222  <span class="icon ps-2"><i class="fa-regular fa-phone"></i></span></span>
+                                  <span class="phone-number d-block">+966 92 002 0622  <span class="icon ps-2"><i class="fa-regular fa-phone"></i></span></span>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                      <hr class="mt-5 ">
+                      <div class="col-md-12 wow fadeInRight">
+                          <div class="work-time pt-4">
+                          <h3 class="mb-3">مواعيد العمل</h3>
+                          <p class="fw-bold fs-1">  السبت إلي الخميس<span > من 9 صباحا إلي 9 مساءا </span></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-5 wow fadeInLeft" data-wow-delay=".2s">
+                  <div class="site-location">
+                      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3579.7108733973714!2d50.197049!3d26.206082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf247de23866844c!2zMjbCsDEyJzIyLjciTiA1MMKwMTEnNDYuNyJF!5e0!3m2!1sen!2sus!4v1674828782410!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                  
+              </div>
+          </div>
+         
+      </div>
+     
+  </footer>
+  <div class="copyrights py-4 text-center">
+        DENTIN CLINIC 2023 &copy;
+
+  </div>
+  <!-- End Footer -->
+          
+    <script src="assets/js/jquery3.2.1.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+
+    <!--Site Main js-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/reservationForm.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/js/carousel.js"></script>
+</body>
+</html>
